@@ -1,5 +1,7 @@
 # LIPS: Learning Interacting Particle Systems from Unlabeled Snapshot Data
 
+[[Project Page](https://viskawei.github.io/ips_unlabeled_learning_web/)]
+
 Code for reproducing all experiments in the paper.
 
 ## Setup
@@ -73,7 +75,8 @@ python scripts/run_full_cond_table.py
 All plotting scripts are in `scripts/plot_*.py`. They read from `results/` and save figures to the current directory or a specified output path.
 
 ```bash
-python scripts/plot_m_scaling.py
+python scripts/plot_m_scaling_zerogap.py
+python scripts/plot_m_scaling_discrete.py
 python scripts/plot_condition_numbers.py
 python scripts/plot_boundary_recovery.py
 python scripts/plot_all_methods_appendix.py
