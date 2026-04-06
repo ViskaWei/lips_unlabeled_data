@@ -1,6 +1,6 @@
 # LIPS: Learning Interacting Particle Systems from Unlabeled Snapshot Data
 
-[[Project Page](https://viskawei.github.io/ips_unlabeled_learning_web/)]
+[[Paper (arXiv)](https://arxiv.org/abs/2604.02581)] [[Project Page](https://viskawei.github.io/ips_unlabeled_learning_web/)]
 
 Code for reproducing all experiments in the paper.
 
