@@ -1,0 +1,23 @@
+# IPS Unlabeled Learning — Central Configuration
+# All experiment parameters live here. Scripts read via config.model.Config.
+
+weighting_method: "kde"
+default_sigma: 1.0
+default_reg: 1.0e-6
+default_m_max: 2000
+
+models:
+  - model_a
+  - model_b
+  - model_lj
+  - model_morse
+  - model_e
+
+dims: [2, 5, 10, 20]
+dt_obs_values: [0.001, 0.01, 0.1]
+
+methods: [mle, sinkhorn, selftest]
+basis_types: [oracle, rbf]
+
+data_root: "./data"
+results_subdir: "results"
